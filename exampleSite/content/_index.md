@@ -1,7 +1,7 @@
 ---
-lead: "Basic, simple and minimal Hugo theme"
+lead: "👋🏻 Welcome to my blog! I'm Aditya "
 ---
 
-This is a demo of the `not-much` theme, built with Hugo, and is intended to be trouble-free. Explore it to see what `not-much` has to offer.
+, and I love sharing insights about technology, innovation, and efficient workflows. I have a deep passion for skating, learning new languages, playing chess, engineering, and programming. This blog is designed to be minimal, clean, and distraction-free—just like the tools I use. If you enjoy my content, feel free to explore more and reach out with any suggestions or ideas!
 
-💡 Check the [about page](./about) to learn more about this theme.
+💡 Check the [about page](./about) .

@@ -3,7 +3,7 @@
 # from a subdir of the theme
 themesDir = "../../"
 
-title = "not-much demo"
+title = "pizza slice"
 theme = "not-much"
 languageCode = "en-us"
 baseURL = "https://example.org/"
@@ -49,5 +49,5 @@ showThemeNotice = true
     identifier = "github"
     name = "github"
     title = "GitHub"
-    url = "https://github.com/imgios/not-much"
+    url = "https://github.com/ADITYA150090"
     weight = 4
