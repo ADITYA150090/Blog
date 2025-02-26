@@ -1,0 +1,10 @@
+{{- $page := .page }} {{- range .menuEntries }} {{- $href := .URL }} {{- $class := "" }} {{- $ariaCurrent := "" }} {{- if $page.IsMenuCurrent .Menu . }} {{- $class = "active" }} {{- $ariaCurrent = "page" }} {{- else if $page.HasMenuCurrent .Menu . }}
+{{- $class = "ancestor" }} {{- $ariaCurrent = "true" }} {{- end }} {{- $name := .Name }} {{- with .Identifier }} {{- with T . }} {{- $name = . }} {{- end }} {{- end }}
+
+<li class="breadcrumb-item">
+    <a href="{{ $href }}" class="{{ $class }}" aria-current="{{ $ariaCurrent | default " " }}" {{- if strings.HasPrefix .URL "http" }} target="_blank" rel="noopener noreferrer" {{- end }}>
+         {{ $name }}
+      </a>
+</li>
+
+{{- end }}
