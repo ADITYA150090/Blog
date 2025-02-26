@@ -6,7 +6,7 @@ themesDir = "../../"
 title = "pizza slice"
 theme = "not-much"
 languageCode = "en-us"
-baseURL = "https://example.org/"
+baseURL = "https://blog-tf48.vercel.app"
 copyright = "Sample custom notice © {year}"
 
 [markup]
